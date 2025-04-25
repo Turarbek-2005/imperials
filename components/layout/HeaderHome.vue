@@ -49,7 +49,7 @@ onUnmounted(() => {
           <div></div>
         </div>
       </button>
-      <USlideover class="slider" v-model="isOpen">
+      <USlideover class="dark" v-model="isOpen">
         <LayoutAdaptiveSidebar />
       </USlideover>
     </div>

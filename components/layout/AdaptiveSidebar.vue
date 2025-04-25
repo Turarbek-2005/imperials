@@ -13,7 +13,7 @@ import { isOpen } from "./state";
       @click="isOpen = !isOpen"
     >
       <path
-        fill="#ffffff"
+        fill="#000000"
         d="M400 145.49L366.51 112L256 222.51L145.49 112L112 145.49L222.51 256L112 366.51L145.49 400L256 289.49L366.51 400L400 366.51L289.49 256z"
       ></path>
     </svg>
@@ -43,9 +43,8 @@ import { isOpen } from "./state";
   padding-top: 30px;
   position: relative;
 }
-
 .link {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
